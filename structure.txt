@@ -1,0 +1,965 @@
+Folder PATH listing
+Volume serial number is 0000006C 78C2:5C27
+C:.
+³   .gitignore
+³   package-lock.json
+³   package.json
+³   playwright.config.ts
+³   readme.md
+³   structure.txt
+³   
+?ÄÄÄdata
+³       login.data.ts
+³       
+?ÄÄÄfixtures
+³       auth.fixture.ts
+³       
+?ÄÄÄnode_modules
+³   ³   .package-lock.json
+³   ³   
+³   ?ÄÄÄ.bin
+³   ³       playwright
+³   ³       playwright-core
+³   ³       playwright-core.cmd
+³   ³       playwright-core.ps1
+³   ³       playwright.cmd
+³   ³       playwright.ps1
+³   ³       
+³   ?ÄÄÄ@playwright
+³   ³   ÀÄÄÄtest
+³   ³           cli.js
+³   ³           index.d.ts
+³   ³           index.js
+³   ³           index.mjs
+³   ³           LICENSE
+³   ³           NOTICE
+³   ³           package.json
+³   ³           README.md
+³   ³           reporter.d.ts
+³   ³           reporter.js
+³   ³           reporter.mjs
+³   ³           
+³   ?ÄÄÄ@types
+³   ³   ÀÄÄÄnode
+³   ³       ³   assert.d.ts
+³   ³       ³   async_hooks.d.ts
+³   ³       ³   buffer.buffer.d.ts
+³   ³       ³   buffer.d.ts
+³   ³       ³   child_process.d.ts
+³   ³       ³   cluster.d.ts
+³   ³       ³   console.d.ts
+³   ³       ³   constants.d.ts
+³   ³       ³   crypto.d.ts
+³   ³       ³   dgram.d.ts
+³   ³       ³   diagnostics_channel.d.ts
+³   ³       ³   dns.d.ts
+³   ³       ³   domain.d.ts
+³   ³       ³   events.d.ts
+³   ³       ³   fs.d.ts
+³   ³       ³   globals.d.ts
+³   ³       ³   globals.typedarray.d.ts
+³   ³       ³   http.d.ts
+³   ³       ³   http2.d.ts
+³   ³       ³   https.d.ts
+³   ³       ³   index.d.ts
+³   ³       ³   inspector.d.ts
+³   ³       ³   inspector.generated.d.ts
+³   ³       ³   LICENSE
+³   ³       ³   module.d.ts
+³   ³       ³   net.d.ts
+³   ³       ³   os.d.ts
+³   ³       ³   package.json
+³   ³       ³   path.d.ts
+³   ³       ³   perf_hooks.d.ts
+³   ³       ³   process.d.ts
+³   ³       ³   punycode.d.ts
+³   ³       ³   querystring.d.ts
+³   ³       ³   quic.d.ts
+³   ³       ³   readline.d.ts
+³   ³       ³   README.md
+³   ³       ³   repl.d.ts
+³   ³       ³   sea.d.ts
+³   ³       ³   sqlite.d.ts
+³   ³       ³   stream.d.ts
+³   ³       ³   string_decoder.d.ts
+³   ³       ³   test.d.ts
+³   ³       ³   timers.d.ts
+³   ³       ³   tls.d.ts
+³   ³       ³   trace_events.d.ts
+³   ³       ³   tty.d.ts
+³   ³       ³   url.d.ts
+³   ³       ³   util.d.ts
+³   ³       ³   v8.d.ts
+³   ³       ³   vm.d.ts
+³   ³       ³   wasi.d.ts
+³   ³       ³   worker_threads.d.ts
+³   ³       ³   zlib.d.ts
+³   ³       ³   
+³   ³       ?ÄÄÄassert
+³   ³       ³       strict.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄcompatibility
+³   ³       ³       iterators.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄdns
+³   ³       ³       promises.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄfs
+³   ³       ³       promises.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄinspector
+³   ³       ³       promises.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄpath
+³   ³       ³       posix.d.ts
+³   ³       ³       win32.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄreadline
+³   ³       ³       promises.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄstream
+³   ³       ³       consumers.d.ts
+³   ³       ³       promises.d.ts
+³   ³       ³       web.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄtest
+³   ³       ³       reporters.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄtimers
+³   ³       ³       promises.d.ts
+³   ³       ³       
+³   ³       ?ÄÄÄts5.6
+³   ³       ³   ³   buffer.buffer.d.ts
+³   ³       ³   ³   globals.typedarray.d.ts
+³   ³       ³   ³   index.d.ts
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄcompatibility
+³   ³       ³           float16array.d.ts
+³   ³       ³           
+³   ³       ?ÄÄÄts5.7
+³   ³       ³   ³   index.d.ts
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄcompatibility
+³   ³       ³           float16array.d.ts
+³   ³       ³           
+³   ³       ?ÄÄÄutil
+³   ³       ³       types.d.ts
+³   ³       ³       
+³   ³       ÀÄÄÄweb-globals
+³   ³               abortcontroller.d.ts
+³   ³               blob.d.ts
+³   ³               console.d.ts
+³   ³               crypto.d.ts
+³   ³               domexception.d.ts
+³   ³               encoding.d.ts
+³   ³               events.d.ts
+³   ³               fetch.d.ts
+³   ³               importmeta.d.ts
+³   ³               messaging.d.ts
+³   ³               navigator.d.ts
+³   ³               performance.d.ts
+³   ³               storage.d.ts
+³   ³               streams.d.ts
+³   ³               timers.d.ts
+³   ³               url.d.ts
+³   ³               
+³   ?ÄÄÄplaywright
+³   ³   ³   cli.js
+³   ³   ³   index.d.ts
+³   ³   ³   index.js
+³   ³   ³   index.mjs
+³   ³   ³   jsx-runtime.js
+³   ³   ³   jsx-runtime.mjs
+³   ³   ³   LICENSE
+³   ³   ³   NOTICE
+³   ³   ³   package.json
+³   ³   ³   README.md
+³   ³   ³   test.d.ts
+³   ³   ³   test.js
+³   ³   ³   test.mjs
+³   ³   ³   ThirdPartyNotices.txt
+³   ³   ³   
+³   ³   ?ÄÄÄlib
+³   ³   ³   ³   errorContext.js
+³   ³   ³   ³   fsWatcher.js
+³   ³   ³   ³   index.js
+³   ³   ³   ³   internalsForTest.js
+³   ³   ³   ³   program.js
+³   ³   ³   ³   reportActions.js
+³   ³   ³   ³   testActions.js
+³   ³   ³   ³   util.js
+³   ³   ³   ³   utilsBundle.js
+³   ³   ³   ³   utilsBundleImpl.js
+³   ³   ³   ³   
+³   ³   ³   ?ÄÄÄagents
+³   ³   ³   ³       agentParser.js
+³   ³   ³   ³       copilot-setup-steps.yml
+³   ³   ³   ³       generateAgents.js
+³   ³   ³   ³       playwright-test-coverage.prompt.md
+³   ³   ³   ³       playwright-test-generate.prompt.md
+³   ³   ³   ³       playwright-test-generator.agent.md
+³   ³   ³   ³       playwright-test-heal.prompt.md
+³   ³   ³   ³       playwright-test-healer.agent.md
+³   ³   ³   ³       playwright-test-plan.prompt.md
+³   ³   ³   ³       playwright-test-planner.agent.md
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄcommon
+³   ³   ³   ³       config.js
+³   ³   ³   ³       configLoader.js
+³   ³   ³   ³       esmLoaderHost.js
+³   ³   ³   ³       expectBundle.js
+³   ³   ³   ³       expectBundleImpl.js
+³   ³   ³   ³       fixtures.js
+³   ³   ³   ³       globals.js
+³   ³   ³   ³       ipc.js
+³   ³   ³   ³       poolBuilder.js
+³   ³   ³   ³       process.js
+³   ³   ³   ³       suiteUtils.js
+³   ³   ³   ³       test.js
+³   ³   ³   ³       testLoader.js
+³   ³   ³   ³       testType.js
+³   ³   ³   ³       validators.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄisomorphic
+³   ³   ³   ³       events.js
+³   ³   ³   ³       folders.js
+³   ³   ³   ³       stringInternPool.js
+³   ³   ³   ³       teleReceiver.js
+³   ³   ³   ³       teleSuiteUpdater.js
+³   ³   ³   ³       testServerConnection.js
+³   ³   ³   ³       testServerInterface.js
+³   ³   ³   ³       testTree.js
+³   ³   ³   ³       types.d.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄloader
+³   ³   ³   ³       loaderMain.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄmatchers
+³   ³   ³   ³       expect.js
+³   ³   ³   ³       matcherHint.js
+³   ³   ³   ³       matchers.js
+³   ³   ³   ³       toBeTruthy.js
+³   ³   ³   ³       toEqual.js
+³   ³   ³   ³       toHaveURL.js
+³   ³   ³   ³       toMatchAriaSnapshot.js
+³   ³   ³   ³       toMatchSnapshot.js
+³   ³   ³   ³       toMatchText.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄmcp
+³   ³   ³   ³   ÀÄÄÄtest
+³   ³   ³   ³           browserBackend.js
+³   ³   ³   ³           generatorTools.js
+³   ³   ³   ³           plannerTools.js
+³   ³   ³   ³           seed.js
+³   ³   ³   ³           streams.js
+³   ³   ³   ³           testBackend.js
+³   ³   ³   ³           testContext.js
+³   ³   ³   ³           testTool.js
+³   ³   ³   ³           testTools.js
+³   ³   ³   ³           
+³   ³   ³   ?ÄÄÄplugins
+³   ³   ³   ³       gitCommitInfoPlugin.js
+³   ³   ³   ³       index.js
+³   ³   ³   ³       webServerPlugin.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄreporters
+³   ³   ³   ³   ³   base.js
+³   ³   ³   ³   ³   blob.js
+³   ³   ³   ³   ³   dot.js
+³   ³   ³   ³   ³   empty.js
+³   ³   ³   ³   ³   github.js
+³   ³   ³   ³   ³   html.js
+³   ³   ³   ³   ³   internalReporter.js
+³   ³   ³   ³   ³   json.js
+³   ³   ³   ³   ³   junit.js
+³   ³   ³   ³   ³   line.js
+³   ³   ³   ³   ³   list.js
+³   ³   ³   ³   ³   listModeReporter.js
+³   ³   ³   ³   ³   markdown.js
+³   ³   ³   ³   ³   merge.js
+³   ³   ³   ³   ³   multiplexer.js
+³   ³   ³   ³   ³   reporterV2.js
+³   ³   ³   ³   ³   teleEmitter.js
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ÀÄÄÄversions
+³   ³   ³   ³           blobV1.js
+³   ³   ³   ³           
+³   ³   ³   ?ÄÄÄrunner
+³   ³   ³   ³       dispatcher.js
+³   ³   ³   ³       failureTracker.js
+³   ³   ³   ³       lastRun.js
+³   ³   ³   ³       loaderHost.js
+³   ³   ³   ³       loadUtils.js
+³   ³   ³   ³       processHost.js
+³   ³   ³   ³       projectUtils.js
+³   ³   ³   ³       rebase.js
+³   ³   ³   ³       reporters.js
+³   ³   ³   ³       sigIntWatcher.js
+³   ³   ³   ³       taskRunner.js
+³   ³   ³   ³       tasks.js
+³   ³   ³   ³       testGroups.js
+³   ³   ³   ³       testRunner.js
+³   ³   ³   ³       testServer.js
+³   ³   ³   ³       uiModeReporter.js
+³   ³   ³   ³       vcs.js
+³   ³   ³   ³       watchMode.js
+³   ³   ³   ³       workerHost.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄthird_party
+³   ³   ³   ³       pirates.js
+³   ³   ³   ³       tsconfig-loader.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄtransform
+³   ³   ³   ³       babelBundle.js
+³   ³   ³   ³       babelBundleImpl.js
+³   ³   ³   ³       compilationCache.js
+³   ³   ³   ³       esmLoader.js
+³   ³   ³   ³       portTransport.js
+³   ³   ³   ³       transform.js
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄworker
+³   ³   ³           fixtureRunner.js
+³   ³   ³           testInfo.js
+³   ³   ³           testTracing.js
+³   ³   ³           timeoutManager.js
+³   ³   ³           util.js
+³   ³   ³           workerMain.js
+³   ³   ³           
+³   ³   ÀÄÄÄtypes
+³   ³           test.d.ts
+³   ³           testReporter.d.ts
+³   ³           
+³   ?ÄÄÄplaywright-core
+³   ³   ³   browsers.json
+³   ³   ³   cli.js
+³   ³   ³   index.d.ts
+³   ³   ³   index.js
+³   ³   ³   index.mjs
+³   ³   ³   LICENSE
+³   ³   ³   NOTICE
+³   ³   ³   package.json
+³   ³   ³   README.md
+³   ³   ³   ThirdPartyNotices.txt
+³   ³   ³   
+³   ³   ?ÄÄÄbin
+³   ³   ³       install_media_pack.ps1
+³   ³   ³       install_webkit_wsl.ps1
+³   ³   ³       reinstall_chrome_beta_linux.sh
+³   ³   ³       reinstall_chrome_beta_mac.sh
+³   ³   ³       reinstall_chrome_beta_win.ps1
+³   ³   ³       reinstall_chrome_stable_linux.sh
+³   ³   ³       reinstall_chrome_stable_mac.sh
+³   ³   ³       reinstall_chrome_stable_win.ps1
+³   ³   ³       reinstall_msedge_beta_linux.sh
+³   ³   ³       reinstall_msedge_beta_mac.sh
+³   ³   ³       reinstall_msedge_beta_win.ps1
+³   ³   ³       reinstall_msedge_dev_linux.sh
+³   ³   ³       reinstall_msedge_dev_mac.sh
+³   ³   ³       reinstall_msedge_dev_win.ps1
+³   ³   ³       reinstall_msedge_stable_linux.sh
+³   ³   ³       reinstall_msedge_stable_mac.sh
+³   ³   ³       reinstall_msedge_stable_win.ps1
+³   ³   ³       
+³   ³   ?ÄÄÄlib
+³   ³   ³   ³   androidServerImpl.js
+³   ³   ³   ³   bootstrap.js
+³   ³   ³   ³   browserServerImpl.js
+³   ³   ³   ³   inprocess.js
+³   ³   ³   ³   inProcessFactory.js
+³   ³   ³   ³   mcpBundle.js
+³   ³   ³   ³   mcpBundleImpl.js
+³   ³   ³   ³   outofprocess.js
+³   ³   ³   ³   serverRegistry.js
+³   ³   ³   ³   utils.js
+³   ³   ³   ³   utilsBundle.js
+³   ³   ³   ³   zipBundle.js
+³   ³   ³   ³   zipBundleImpl.js
+³   ³   ³   ³   zodBundle.js
+³   ³   ³   ³   zodBundleImpl.js
+³   ³   ³   ³   
+³   ³   ³   ?ÄÄÄcli
+³   ³   ³   ³       browserActions.js
+³   ³   ³   ³       driver.js
+³   ³   ³   ³       installActions.js
+³   ³   ³   ³       program.js
+³   ³   ³   ³       programWithTestStub.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄclient
+³   ³   ³   ³       android.js
+³   ³   ³   ³       api.js
+³   ³   ³   ³       artifact.js
+³   ³   ³   ³       browser.js
+³   ³   ³   ³       browserContext.js
+³   ³   ³   ³       browserType.js
+³   ³   ³   ³       cdpSession.js
+³   ³   ³   ³       channelOwner.js
+³   ³   ³   ³       clientHelper.js
+³   ³   ³   ³       clientInstrumentation.js
+³   ³   ³   ³       clientStackTrace.js
+³   ³   ³   ³       clock.js
+³   ³   ³   ³       connect.js
+³   ³   ³   ³       connection.js
+³   ³   ³   ³       consoleMessage.js
+³   ³   ³   ³       coverage.js
+³   ³   ³   ³       debugger.js
+³   ³   ³   ³       dialog.js
+³   ³   ³   ³       disposable.js
+³   ³   ³   ³       download.js
+³   ³   ³   ³       electron.js
+³   ³   ³   ³       elementHandle.js
+³   ³   ³   ³       errors.js
+³   ³   ³   ³       eventEmitter.js
+³   ³   ³   ³       events.js
+³   ³   ³   ³       fetch.js
+³   ³   ³   ³       fileChooser.js
+³   ³   ³   ³       fileUtils.js
+³   ³   ³   ³       frame.js
+³   ³   ³   ³       harRouter.js
+³   ³   ³   ³       input.js
+³   ³   ³   ³       jsHandle.js
+³   ³   ³   ³       jsonPipe.js
+³   ³   ³   ³       localUtils.js
+³   ³   ³   ³       locator.js
+³   ³   ³   ³       network.js
+³   ³   ³   ³       page.js
+³   ³   ³   ³       platform.js
+³   ³   ³   ³       playwright.js
+³   ³   ³   ³       screencast.js
+³   ³   ³   ³       selectors.js
+³   ³   ³   ³       stream.js
+³   ³   ³   ³       timeoutSettings.js
+³   ³   ³   ³       tracing.js
+³   ³   ³   ³       types.js
+³   ³   ³   ³       video.js
+³   ³   ³   ³       waiter.js
+³   ³   ³   ³       webError.js
+³   ³   ³   ³       worker.js
+³   ³   ³   ³       writableStream.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄgenerated
+³   ³   ³   ³       bindingsControllerSource.js
+³   ³   ³   ³       clockSource.js
+³   ³   ³   ³       injectedScriptSource.js
+³   ³   ³   ³       pollingRecorderSource.js
+³   ³   ³   ³       storageScriptSource.js
+³   ³   ³   ³       utilityScriptSource.js
+³   ³   ³   ³       webSocketMockSource.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄprotocol
+³   ³   ³   ³       serializers.js
+³   ³   ³   ³       validator.js
+³   ³   ³   ³       validatorPrimitives.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄremote
+³   ³   ³   ³       playwrightConnection.js
+³   ³   ³   ³       playwrightPipeServer.js
+³   ³   ³   ³       playwrightServer.js
+³   ³   ³   ³       playwrightWebSocketServer.js
+³   ³   ³   ³       serverTransport.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄserver
+³   ³   ³   ³   ³   artifact.js
+³   ³   ³   ³   ³   browser.js
+³   ³   ³   ³   ³   browserContext.js
+³   ³   ³   ³   ³   browserType.js
+³   ³   ³   ³   ³   callLog.js
+³   ³   ³   ³   ³   clock.js
+³   ³   ³   ³   ³   console.js
+³   ³   ³   ³   ³   cookieStore.js
+³   ³   ³   ³   ³   debugController.js
+³   ³   ³   ³   ³   debugger.js
+³   ³   ³   ³   ³   deviceDescriptors.js
+³   ³   ³   ³   ³   deviceDescriptorsSource.json
+³   ³   ³   ³   ³   dialog.js
+³   ³   ³   ³   ³   disposable.js
+³   ³   ³   ³   ³   dom.js
+³   ³   ³   ³   ³   download.js
+³   ³   ³   ³   ³   errors.js
+³   ³   ³   ³   ³   fetch.js
+³   ³   ³   ³   ³   fileChooser.js
+³   ³   ³   ³   ³   fileUploadUtils.js
+³   ³   ³   ³   ³   formData.js
+³   ³   ³   ³   ³   frames.js
+³   ³   ³   ³   ³   frameSelectors.js
+³   ³   ³   ³   ³   harBackend.js
+³   ³   ³   ³   ³   helper.js
+³   ³   ³   ³   ³   index.js
+³   ³   ³   ³   ³   input.js
+³   ³   ³   ³   ³   instrumentation.js
+³   ³   ³   ³   ³   javascript.js
+³   ³   ³   ³   ³   launchApp.js
+³   ³   ³   ³   ³   localUtils.js
+³   ³   ³   ³   ³   macEditingCommands.js
+³   ³   ³   ³   ³   network.js
+³   ³   ³   ³   ³   overlay.js
+³   ³   ³   ³   ³   page.js
+³   ³   ³   ³   ³   pipeTransport.js
+³   ³   ³   ³   ³   playwright.js
+³   ³   ³   ³   ³   progress.js
+³   ³   ³   ³   ³   protocolError.js
+³   ³   ³   ³   ³   recorder.js
+³   ³   ³   ³   ³   screencast.js
+³   ³   ³   ³   ³   screenshotter.js
+³   ³   ³   ³   ³   selectors.js
+³   ³   ³   ³   ³   socksClientCertificatesInterceptor.js
+³   ³   ³   ³   ³   socksInterceptor.js
+³   ³   ³   ³   ³   transport.js
+³   ³   ³   ³   ³   types.js
+³   ³   ³   ³   ³   usKeyboardLayout.js
+³   ³   ³   ³   ³   videoRecorder.js
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ?ÄÄÄandroid
+³   ³   ³   ³   ³       android.js
+³   ³   ³   ³   ³       backendAdb.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄbidi
+³   ³   ³   ³   ³   ³   bidiBrowser.js
+³   ³   ³   ³   ³   ³   bidiChromium.js
+³   ³   ³   ³   ³   ³   bidiConnection.js
+³   ³   ³   ³   ³   ³   bidiDeserializer.js
+³   ³   ³   ³   ³   ³   bidiExecutionContext.js
+³   ³   ³   ³   ³   ³   bidiFirefox.js
+³   ³   ³   ³   ³   ³   bidiInput.js
+³   ³   ³   ³   ³   ³   bidiNetworkManager.js
+³   ³   ³   ³   ³   ³   bidiOverCdp.js
+³   ³   ³   ³   ³   ³   bidiPage.js
+³   ³   ³   ³   ³   ³   bidiPdf.js
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄthird_party
+³   ³   ³   ³   ³           bidiCommands.d.js
+³   ³   ³   ³   ³           bidiKeyboard.js
+³   ³   ³   ³   ³           bidiProtocol.js
+³   ³   ³   ³   ³           bidiProtocolCore.js
+³   ³   ³   ³   ³           bidiProtocolPermissions.js
+³   ³   ³   ³   ³           bidiSerializer.js
+³   ³   ³   ³   ³           firefoxPrefs.js
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ?ÄÄÄchromium
+³   ³   ³   ³   ³       appIcon.png
+³   ³   ³   ³   ³       chromium.js
+³   ³   ³   ³   ³       chromiumSwitches.js
+³   ³   ³   ³   ³       crBrowser.js
+³   ³   ³   ³   ³       crConnection.js
+³   ³   ³   ³   ³       crCoverage.js
+³   ³   ³   ³   ³       crDevTools.js
+³   ³   ³   ³   ³       crDragDrop.js
+³   ³   ³   ³   ³       crExecutionContext.js
+³   ³   ³   ³   ³       crInput.js
+³   ³   ³   ³   ³       crNetworkManager.js
+³   ³   ³   ³   ³       crPage.js
+³   ³   ³   ³   ³       crPdf.js
+³   ³   ³   ³   ³       crProtocolHelper.js
+³   ³   ³   ³   ³       crServiceWorker.js
+³   ³   ³   ³   ³       defaultFontFamilies.js
+³   ³   ³   ³   ³       protocol.d.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄcodegen
+³   ³   ³   ³   ³       csharp.js
+³   ³   ³   ³   ³       java.js
+³   ³   ³   ³   ³       javascript.js
+³   ³   ³   ³   ³       jsonl.js
+³   ³   ³   ³   ³       language.js
+³   ³   ³   ³   ³       languages.js
+³   ³   ³   ³   ³       python.js
+³   ³   ³   ³   ³       types.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄdispatchers
+³   ³   ³   ³   ³       androidDispatcher.js
+³   ³   ³   ³   ³       artifactDispatcher.js
+³   ³   ³   ³   ³       browserContextDispatcher.js
+³   ³   ³   ³   ³       browserDispatcher.js
+³   ³   ³   ³   ³       browserTypeDispatcher.js
+³   ³   ³   ³   ³       cdpSessionDispatcher.js
+³   ³   ³   ³   ³       debugControllerDispatcher.js
+³   ³   ³   ³   ³       debuggerDispatcher.js
+³   ³   ³   ³   ³       dialogDispatcher.js
+³   ³   ³   ³   ³       dispatcher.js
+³   ³   ³   ³   ³       disposableDispatcher.js
+³   ³   ³   ³   ³       electronDispatcher.js
+³   ³   ³   ³   ³       elementHandlerDispatcher.js
+³   ³   ³   ³   ³       frameDispatcher.js
+³   ³   ³   ³   ³       jsHandleDispatcher.js
+³   ³   ³   ³   ³       jsonPipeDispatcher.js
+³   ³   ³   ³   ³       localUtilsDispatcher.js
+³   ³   ³   ³   ³       networkDispatchers.js
+³   ³   ³   ³   ³       pageDispatcher.js
+³   ³   ³   ³   ³       playwrightDispatcher.js
+³   ³   ³   ³   ³       streamDispatcher.js
+³   ³   ³   ³   ³       tracingDispatcher.js
+³   ³   ³   ³   ³       webSocketRouteDispatcher.js
+³   ³   ³   ³   ³       writableStreamDispatcher.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄelectron
+³   ³   ³   ³   ³       electron.js
+³   ³   ³   ³   ³       loader.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄfirefox
+³   ³   ³   ³   ³       ffBrowser.js
+³   ³   ³   ³   ³       ffConnection.js
+³   ³   ³   ³   ³       ffExecutionContext.js
+³   ³   ³   ³   ³       ffInput.js
+³   ³   ³   ³   ³       ffNetworkManager.js
+³   ³   ³   ³   ³       ffPage.js
+³   ³   ³   ³   ³       firefox.js
+³   ³   ³   ³   ³       protocol.d.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄhar
+³   ³   ³   ³   ³       harRecorder.js
+³   ³   ³   ³   ³       harTracer.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄrecorder
+³   ³   ³   ³   ³       chat.js
+³   ³   ³   ³   ³       recorderApp.js
+³   ³   ³   ³   ³       recorderRunner.js
+³   ³   ³   ³   ³       recorderSignalProcessor.js
+³   ³   ³   ³   ³       recorderUtils.js
+³   ³   ³   ³   ³       throttledFile.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄregistry
+³   ³   ³   ³   ³       browserFetcher.js
+³   ³   ³   ³   ³       dependencies.js
+³   ³   ³   ³   ³       index.js
+³   ³   ³   ³   ³       nativeDeps.js
+³   ³   ³   ³   ³       oopDownloadBrowserMain.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄtrace
+³   ³   ³   ³   ³   ?ÄÄÄrecorder
+³   ³   ³   ³   ³   ³       snapshotter.js
+³   ³   ³   ³   ³   ³       snapshotterInjected.js
+³   ³   ³   ³   ³   ³       tracing.js
+³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ÀÄÄÄviewer
+³   ³   ³   ³   ³           traceViewer.js
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ?ÄÄÄutils
+³   ³   ³   ³   ³   ³   ascii.js
+³   ³   ³   ³   ³   ³   comparators.js
+³   ³   ³   ³   ³   ³   crypto.js
+³   ³   ³   ³   ³   ³   debug.js
+³   ³   ³   ³   ³   ³   debugLogger.js
+³   ³   ³   ³   ³   ³   disposable.js
+³   ³   ³   ³   ³   ³   env.js
+³   ³   ³   ³   ³   ³   eventsHelper.js
+³   ³   ³   ³   ³   ³   expectUtils.js
+³   ³   ³   ³   ³   ³   fileUtils.js
+³   ³   ³   ³   ³   ³   happyEyeballs.js
+³   ³   ³   ³   ³   ³   hostPlatform.js
+³   ³   ³   ³   ³   ³   httpServer.js
+³   ³   ³   ³   ³   ³   linuxUtils.js
+³   ³   ³   ³   ³   ³   network.js
+³   ³   ³   ³   ³   ³   nodePlatform.js
+³   ³   ³   ³   ³   ³   pipeTransport.js
+³   ³   ³   ³   ³   ³   processLauncher.js
+³   ³   ³   ³   ³   ³   profiler.js
+³   ³   ³   ³   ³   ³   socksProxy.js
+³   ³   ³   ³   ³   ³   spawnAsync.js
+³   ³   ³   ³   ³   ³   task.js
+³   ³   ³   ³   ³   ³   userAgent.js
+³   ³   ³   ³   ³   ³   wsServer.js
+³   ³   ³   ³   ³   ³   zipFile.js
+³   ³   ³   ³   ³   ³   zones.js
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄimage_tools
+³   ³   ³   ³   ³           colorUtils.js
+³   ³   ³   ³   ³           compare.js
+³   ³   ³   ³   ³           imageChannel.js
+³   ³   ³   ³   ³           stats.js
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ÀÄÄÄwebkit
+³   ³   ³   ³           protocol.d.js
+³   ³   ³   ³           webkit.js
+³   ³   ³   ³           wkBrowser.js
+³   ³   ³   ³           wkConnection.js
+³   ³   ³   ³           wkExecutionContext.js
+³   ³   ³   ³           wkInput.js
+³   ³   ³   ³           wkInterceptableRequest.js
+³   ³   ³   ³           wkPage.js
+³   ³   ³   ³           wkProvisionalPage.js
+³   ³   ³   ³           wkWorkers.js
+³   ³   ³   ³           
+³   ³   ³   ?ÄÄÄthird_party
+³   ³   ³   ³       pixelmatch.js
+³   ³   ³   ³       
+³   ³   ³   ?ÄÄÄtools
+³   ³   ³   ³   ³   exports.js
+³   ³   ³   ³   ³   
+³   ³   ³   ³   ?ÄÄÄbackend
+³   ³   ³   ³   ³       browserBackend.js
+³   ³   ³   ³   ³       common.js
+³   ³   ³   ³   ³       config.js
+³   ³   ³   ³   ³       console.js
+³   ³   ³   ³   ³       context.js
+³   ³   ³   ³   ³       cookies.js
+³   ³   ³   ³   ³       devtools.js
+³   ³   ³   ³   ³       dialogs.js
+³   ³   ³   ³   ³       evaluate.js
+³   ³   ³   ³   ³       files.js
+³   ³   ³   ³   ³       form.js
+³   ³   ³   ³   ³       keyboard.js
+³   ³   ³   ³   ³       logFile.js
+³   ³   ³   ³   ³       mouse.js
+³   ³   ³   ³   ³       navigate.js
+³   ³   ³   ³   ³       network.js
+³   ³   ³   ³   ³       pdf.js
+³   ³   ³   ³   ³       response.js
+³   ³   ³   ³   ³       route.js
+³   ³   ³   ³   ³       runCode.js
+³   ³   ³   ³   ³       screenshot.js
+³   ³   ³   ³   ³       sessionLog.js
+³   ³   ³   ³   ³       snapshot.js
+³   ³   ³   ³   ³       storage.js
+³   ³   ³   ³   ³       tab.js
+³   ³   ³   ³   ³       tabs.js
+³   ³   ³   ³   ³       tool.js
+³   ³   ³   ³   ³       tools.js
+³   ³   ³   ³   ³       tracing.js
+³   ³   ³   ³   ³       utils.js
+³   ³   ³   ³   ³       verify.js
+³   ³   ³   ³   ³       video.js
+³   ³   ³   ³   ³       wait.js
+³   ³   ³   ³   ³       webstorage.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄcli-client
+³   ³   ³   ³   ³   ³   cli.js
+³   ³   ³   ³   ³   ³   help.json
+³   ³   ³   ³   ³   ³   minimist.js
+³   ³   ³   ³   ³   ³   program.js
+³   ³   ³   ³   ³   ³   registry.js
+³   ³   ³   ³   ³   ³   session.js
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄskill
+³   ³   ³   ³   ³       ³   SKILL.md
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÀÄÄÄreferences
+³   ³   ³   ³   ³               element-attributes.md
+³   ³   ³   ³   ³               playwright-tests.md
+³   ³   ³   ³   ³               request-mocking.md
+³   ³   ³   ³   ³               running-code.md
+³   ³   ³   ³   ³               session-management.md
+³   ³   ³   ³   ³               storage-state.md
+³   ³   ³   ³   ³               test-generation.md
+³   ³   ³   ³   ³               tracing.md
+³   ³   ³   ³   ³               video-recording.md
+³   ³   ³   ³   ³               
+³   ³   ³   ³   ?ÄÄÄcli-daemon
+³   ³   ³   ³   ³       command.js
+³   ³   ³   ³   ³       commands.js
+³   ³   ³   ³   ³       daemon.js
+³   ³   ³   ³   ³       helpGenerator.js
+³   ³   ³   ³   ³       program.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄdashboard
+³   ³   ³   ³   ³       appIcon.png
+³   ³   ³   ³   ³       dashboardApp.js
+³   ³   ³   ³   ³       dashboardController.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄmcp
+³   ³   ³   ³   ³       browserFactory.js
+³   ³   ³   ³   ³       cdpRelay.js
+³   ³   ³   ³   ³       cli-stub.js
+³   ³   ³   ³   ³       config.d.js
+³   ³   ³   ³   ³       config.js
+³   ³   ³   ³   ³       configIni.js
+³   ³   ³   ³   ³       extensionContextFactory.js
+³   ³   ³   ³   ³       index.js
+³   ³   ³   ³   ³       log.js
+³   ³   ³   ³   ³       program.js
+³   ³   ³   ³   ³       protocol.js
+³   ³   ³   ³   ³       watchdog.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ?ÄÄÄtrace
+³   ³   ³   ³   ³       installSkill.js
+³   ³   ³   ³   ³       SKILL.md
+³   ³   ³   ³   ³       traceActions.js
+³   ³   ³   ³   ³       traceAttachments.js
+³   ³   ³   ³   ³       traceCli.js
+³   ³   ³   ³   ³       traceConsole.js
+³   ³   ³   ³   ³       traceErrors.js
+³   ³   ³   ³   ³       traceOpen.js
+³   ³   ³   ³   ³       traceParser.js
+³   ³   ³   ³   ³       traceRequests.js
+³   ³   ³   ³   ³       traceScreenshot.js
+³   ³   ³   ³   ³       traceSnapshot.js
+³   ³   ³   ³   ³       traceUtils.js
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄutils
+³   ³   ³   ³       ³   connect.js
+³   ³   ³   ³       ³   socketConnection.js
+³   ³   ³   ³       ³   
+³   ³   ³   ³       ÀÄÄÄmcp
+³   ³   ³   ³               http.js
+³   ³   ³   ³               server.js
+³   ³   ³   ³               tool.js
+³   ³   ³   ³               
+³   ³   ³   ?ÄÄÄutils
+³   ³   ³   ³   ÀÄÄÄisomorphic
+³   ³   ³   ³       ³   ariaSnapshot.js
+³   ³   ³   ³       ³   assert.js
+³   ³   ³   ³       ³   colors.js
+³   ³   ³   ³       ³   cssParser.js
+³   ³   ³   ³       ³   cssTokenizer.js
+³   ³   ³   ³       ³   formatUtils.js
+³   ³   ³   ³       ³   headers.js
+³   ³   ³   ³       ³   imageUtils.js
+³   ³   ³   ³       ³   jsonSchema.js
+³   ³   ³   ³       ³   locatorGenerators.js
+³   ³   ³   ³       ³   locatorParser.js
+³   ³   ³   ³       ³   locatorUtils.js
+³   ³   ³   ³       ³   lruCache.js
+³   ³   ³   ³       ³   manualPromise.js
+³   ³   ³   ³       ³   mimeType.js
+³   ³   ³   ³       ³   multimap.js
+³   ³   ³   ³       ³   protocolFormatter.js
+³   ³   ³   ³       ³   protocolMetainfo.js
+³   ³   ³   ³       ³   rtti.js
+³   ³   ³   ³       ³   selectorParser.js
+³   ³   ³   ³       ³   semaphore.js
+³   ³   ³   ³       ³   stackTrace.js
+³   ³   ³   ³       ³   stringUtils.js
+³   ³   ³   ³       ³   time.js
+³   ³   ³   ³       ³   timeoutRunner.js
+³   ³   ³   ³       ³   types.js
+³   ³   ³   ³       ³   urlMatch.js
+³   ³   ³   ³       ³   utilityScriptSerializers.js
+³   ³   ³   ³       ³   yaml.js
+³   ³   ³   ³       ³   
+³   ³   ³   ³       ÀÄÄÄtrace
+³   ³   ³   ³           ³   entries.js
+³   ³   ³   ³           ³   snapshotRenderer.js
+³   ³   ³   ³           ³   snapshotServer.js
+³   ³   ³   ³           ³   snapshotStorage.js
+³   ³   ³   ³           ³   traceLoader.js
+³   ³   ³   ³           ³   traceModel.js
+³   ³   ³   ³           ³   traceModernizer.js
+³   ³   ³   ³           ³   traceUtils.js
+³   ³   ³   ³           ³   
+³   ³   ³   ³           ÀÄÄÄversions
+³   ³   ³   ³                   traceV3.js
+³   ³   ³   ³                   traceV4.js
+³   ³   ³   ³                   traceV5.js
+³   ³   ³   ³                   traceV6.js
+³   ³   ³   ³                   traceV7.js
+³   ³   ³   ³                   traceV8.js
+³   ³   ³   ³                   
+³   ³   ³   ?ÄÄÄutilsBundleImpl
+³   ³   ³   ³       index.js
+³   ³   ³   ³       xdg-open
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄvite
+³   ³   ³       ?ÄÄÄdashboard
+³   ³   ³       ³   ³   index.html
+³   ³   ³       ³   ³   
+³   ³   ³       ³   ÀÄÄÄassets
+³   ³   ³       ³           index-BAOybkp8.js
+³   ³   ³       ³           index-CZAYOG76.css
+³   ³   ³       ³           
+³   ³   ³       ?ÄÄÄhtmlReport
+³   ³   ³       ³       index.html
+³   ³   ³       ³       report.css
+³   ³   ³       ³       report.js
+³   ³   ³       ³       
+³   ³   ³       ?ÄÄÄrecorder
+³   ³   ³       ³   ³   index.html
+³   ³   ³       ³   ³   playwright-logo.svg
+³   ³   ³       ³   ³   
+³   ³   ³       ³   ÀÄÄÄassets
+³   ³   ³       ³           codeMirrorModule-C8KMvO9L.js
+³   ³   ³       ³           codeMirrorModule-DYBRYzYX.css
+³   ³   ³       ³           codicon-DCmgc-ay.ttf
+³   ³   ³       ³           index-BSjZa4pk.css
+³   ³   ³       ³           index-CqAYX1I3.js
+³   ³   ³       ³           
+³   ³   ³       ÀÄÄÄtraceViewer
+³   ³   ³           ³   codeMirrorModule.DYBRYzYX.css
+³   ³   ³           ³   codicon.DCmgc-ay.ttf
+³   ³   ³           ³   defaultSettingsView.B4dS75f0.css
+³   ³   ³           ³   index.C5466mMT.js
+³   ³   ³           ³   index.CzXZzn5A.css
+³   ³   ³           ³   index.html
+³   ³   ³           ³   manifest.webmanifest
+³   ³   ³           ³   playwright-logo.svg
+³   ³   ³           ³   snapshot.html
+³   ³   ³           ³   sw.bundle.js
+³   ³   ³           ³   uiMode.Btcz36p_.css
+³   ³   ³           ³   uiMode.html
+³   ³   ³           ³   uiMode.Vipi55dB.js
+³   ³   ³           ³   xtermModule.DYP7pi_n.css
+³   ³   ³           ³   
+³   ³   ³           ÀÄÄÄassets
+³   ³   ³                   codeMirrorModule-DS0FLvoc.js
+³   ³   ³                   defaultSettingsView-GTWI-W_B.js
+³   ³   ³                   xtermModule-CsJ4vdCR.js
+³   ³   ³                   
+³   ³   ÀÄÄÄtypes
+³   ³           protocol.d.ts
+³   ³           structs.d.ts
+³   ³           types.d.ts
+³   ³           
+³   ÀÄÄÄundici-types
+³           agent.d.ts
+³           api.d.ts
+³           balanced-pool.d.ts
+³           cache-interceptor.d.ts
+³           cache.d.ts
+³           client-stats.d.ts
+³           client.d.ts
+³           connector.d.ts
+³           content-type.d.ts
+³           cookies.d.ts
+³           diagnostics-channel.d.ts
+³           dispatcher.d.ts
+³           env-http-proxy-agent.d.ts
+³           errors.d.ts
+³           eventsource.d.ts
+³           fetch.d.ts
+³           formdata.d.ts
+³           global-dispatcher.d.ts
+³           global-origin.d.ts
+³           h2c-client.d.ts
+³           handlers.d.ts
+³           header.d.ts
+³           index.d.ts
+³           interceptors.d.ts
+³           LICENSE
+³           mock-agent.d.ts
+³           mock-call-history.d.ts
+³           mock-client.d.ts
+³           mock-errors.d.ts
+³           mock-interceptor.d.ts
+³           mock-pool.d.ts
+³           package.json
+³           patch.d.ts
+³           pool-stats.d.ts
+³           pool.d.ts
+³           proxy-agent.d.ts
+³           readable.d.ts
+³           README.md
+³           retry-agent.d.ts
+³           retry-handler.d.ts
+³           round-robin-pool.d.ts
+³           snapshot-agent.d.ts
+³           util.d.ts
+³           utility.d.ts
+³           webidl.d.ts
+³           websocket.d.ts
+³           
+?ÄÄÄpages
+³       dashboard.page.ts
+³       login.page.ts
+³       
+?ÄÄÄplaywright-report
+³       index.html
+³       
+?ÄÄÄsetup
+³       auth.setup.ts
+³       
+?ÄÄÄtest-results
+³       .last-run.json
+³       
+ÀÄÄÄtests
+    ³   google-login.spec.ts
+    ³   login.spec.ts
+    ³   
+    ÀÄÄÄdashbord
+            dashboard.spec.ts
+            
