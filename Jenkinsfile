@@ -4,8 +4,9 @@ pipeline {
     stages {
         stage('Setup and Run Playwright') {
             steps {
-                // อัปเดตเวอร์ชัน Playwright เป็น v1.59.1-jammy ให้ตรงกับโค้ด
-                bat 'docker run --rm -v "%WORKSPACE%":/app -w /app mcr.microsoft.com/playwright:v1.59.1-jammy /bin/bash -c "npm install --no-save && npx playwright test"'
+                // -u root บังคับสิทธิ์สูงสุด
+                // สร้างโฟลเดอร์ storage, report ล่วงหน้าและให้สิทธิ์ 777 ป้องกันการพังตอนจบ
+                bat 'docker run --rm -u root -v "%WORKSPACE%":/app -w /app mcr.microsoft.com/playwright:v1.59.1-jammy /bin/bash -c "mkdir -p storage playwright-report test-results && chmod 777 storage playwright-report test-results && npm install --no-save && npx playwright test"'
             }
         }
     }
