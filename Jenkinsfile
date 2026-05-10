@@ -10,11 +10,11 @@ pipeline {
                     if not exist playwright-report mkdir playwright-report
                     if not exist test-results mkdir test-results
                     
-                    :: 2. ปลดล็อกสิทธิ์ Windows ให้ทุกคน (รวมถึง Docker) เขียนไฟล์ลงในโฟลเดอร์นี้ได้ 100%
+                    :: 2. ปลดล็อกสิทธิ์ Windows ให้ทุกคน (รวมถึง Docker)
                     icacls "%WORKSPACE%" /grant Everyone:(OI)(CI)F /T /C /Q
                     
-                    :: 3. รัน Docker ตามปกติ (เพิ่ม xvfb-run เพื่อจำลองหน้าจอ)
-                    docker run --rm -u root -v "%WORKSPACE%":/app -w /app mcr.microsoft.com/playwright:v1.59.1-jammy /bin/bash -c "npm install --no-save && xvfb-run npx playwright test"
+                    :: 3. รัน Docker (เพิ่ม --ipc=host เพื่อแก้ปัญหาค้าง และใส่ CI=true)
+                    docker run --rm -u root --ipc=host -e CI=true -v "%WORKSPACE%":/app -w /app mcr.microsoft.com/playwright:v1.59.1-jammy /bin/bash -c "npm install --no-save && npx playwright test"
                 '''
             }
         }
