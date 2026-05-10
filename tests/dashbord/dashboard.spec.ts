@@ -233,7 +233,7 @@ test.describe('Dashboard Navigation', () => {
 
     // ไปหน้า Library
     await Promise.all([
-      page.waitForURL(/library/, { timeout: 30000 }),
+      page.waitForURL(/screen/, { timeout: 30000 }),
       dashboard.clickLibraryMenu(),
     ]);
 
